@@ -2,6 +2,9 @@ package model;
 
 public class project {
 
+    public project() {
+    }
+
     public int addition(int a, int b){
         return a+b;
     }

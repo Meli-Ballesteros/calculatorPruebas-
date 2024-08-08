@@ -16,8 +16,8 @@ public class CalculadoraTest {
 
         // Assert
         assertEquals(5, resultado);
-    }
-    public void testMultiplicacion{
+    }@Test
+    public void testMultiplicacion(){
         //Arrange
         int a = 5;
         int b = 5;

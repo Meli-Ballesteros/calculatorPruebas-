@@ -17,4 +17,16 @@ public class CalculadoraTest {
         // Assert
         assertEquals(5, resultado);
     }
+    public void testMultiplicacion{
+        //Arrange
+        int a = 5;
+        int b = 5;
+        project calculadora = new project();
+
+        //Act
+        int resultado = calculadora.multiplication(a,b);
+
+        //Assert
+        assertEquals(25, resultado);
+    }
 }

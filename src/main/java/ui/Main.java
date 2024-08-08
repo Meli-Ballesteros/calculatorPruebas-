@@ -35,7 +35,7 @@ public class Main {
                     subtraction();
                     break;
                 case 3:
-                    // multiplication();
+                    multiplication();
                     break;
                 case 4:
                     //division();
@@ -72,4 +72,16 @@ public class Main {
         int result = calculator.subtraction(a,b);
         System.out.println("the result is:"+ result);
     }
+    public void multiplication(){
+        System.out.println("Enter first number");
+        int a = sc.nextInt();
+        sc.nextLine();
+        System.out.println("Enter second number");
+        int b =sc.nextInt();
+        sc.nextLine();
+
+        int result = calculator.multiplication(a,b);
+        System.out.println("the result is:"+ result);
+    }
+
 }

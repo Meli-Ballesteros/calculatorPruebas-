@@ -29,4 +29,29 @@ public class CalculadoraTest {
         //Assert
         assertEquals(25, resultado);
     }
+    @Test
+    public void testDivision(){
+        int a = 50;
+        int b = 2;
+        project calculadora = new project();
+
+        //act
+        int resultado = calculadora.division(a,b);
+
+        //assert
+        assertEquals(25, resultado);
+    }
+    @Test
+    public void testResta(){
+        int a = 100;
+        int b = 50;
+        project calculadora = new project();
+
+        //act
+        int resultado = calculadora.subtraction(a,b);
+
+        //assert
+        assertEquals(50, resultado);
+
+    }
 }

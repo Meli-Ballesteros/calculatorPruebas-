@@ -38,7 +38,7 @@ public class Main {
                     multiplication();
                     break;
                 case 4:
-                    //division();
+                    division();
                     break;
                 case 5:
                     System.out.println("See u later");
@@ -81,6 +81,15 @@ public class Main {
         sc.nextLine();
 
         int result = calculator.multiplication(a,b);
+        System.out.println("the result is:"+ result);
+    }
+
+    public void division(){
+        System.out.println("Enter first number");
+        int a = sc.nextInt();
+        System.out.println("Enter second number");
+        int b = sc.nextInt();
+        int result = calculator.division(a,b);
         System.out.println("the result is:"+ result);
     }
 
